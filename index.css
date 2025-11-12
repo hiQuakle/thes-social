@@ -1,6 +1,6 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-image: url("./thé\ \(1920\ x\ 1080\ px\).svg");
+  background-image: url("./DSCF0515.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -15,7 +15,7 @@ body::-webkit-scrollbar {
 }
 .container {
   max-width: 1000px;
-  max-height: 100vh;
+  /* max-height: 100vh; */
   overflow-y: auto;
   margin: 0 auto;
   background-color: rgba(255, 255, 255, 0.9);
@@ -31,10 +31,10 @@ body::-webkit-scrollbar {
   /* Chrome, Safari */
   display: none;
 }
-.section::-webkit-scrollbar {
+/* .section::-webkit-scrollbar {
   /* Chrome, Safari */
-  display: none;
-}
+/* display: none; */
+/* } */
 .section {
   max-height: 80vh;
   overflow-y: auto;
@@ -66,7 +66,8 @@ h2 {
   transform: translateY(-5px);
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
-.box h3 {
+.box h3,
+.only {
   text-align: center;
   margin-bottom: 15px;
   color: #16a085;
@@ -86,6 +87,32 @@ li {
   margin-bottom: 8px;
   color: #333;
 }
+.profile-photo {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.profile-photo img {
+  width: 270px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 3px solid #ccc;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.profile-photo img:hover {
+  transform: scale(1.05);
+}
+
+.download-text {
+  font-size: 14px;
+  color: #666;
+  margin-top: 8px;
+}
+
 @media screen and (max-width: 800px) {
   .content_all_box {
     margin-top: 0;
