@@ -36,9 +36,16 @@ body::-webkit-scrollbar {
   display: none;
 }
 .section {
-  max-height: 80vh;
-  overflow-y: auto;
+  /* Xóa 2 dòng sau: */
+  /* max-height: 80vh; */
+  /* overflow-y: auto; */
+
   padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
 }
 
 h1,
