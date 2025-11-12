@@ -31,10 +31,10 @@ body::-webkit-scrollbar {
   /* Chrome, Safari */
   display: none;
 }
-/* .section::-webkit-scrollbar {
+.section::-webkit-scrollbar {
   /* Chrome, Safari */
-/* display: none; */
-/* } */
+  display: none;
+}
 .section {
   max-height: 80vh;
   overflow-y: auto;
