@@ -113,6 +113,24 @@ li {
 .profile-photo img:hover {
   transform: scale(1.05);
 }
+/* --- Mạng xã hội --- */
+.social-links {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-links a {
+  margin: 0 15px;
+  font-size: 40px; /* to hơn */
+  color: #1da389;
+  transition: color 0.3s, transform 0.3s;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: #2c3e50; /* màu khi hover */
+  transform: scale(1.1);
+}
 
 .download-text {
   font-size: 14px;
